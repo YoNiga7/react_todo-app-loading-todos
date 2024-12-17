@@ -10,8 +10,8 @@ export const getTodos = () => {
 export const addTodo = () => {
   return client.post<Todo>(`/todos?userId=${USER_ID}`, {
     title: 'Learn JS',
-    userId: 2176,
-    completed: false,
+    userId: USER_ID,
+    completed: true,
   });
 };
 

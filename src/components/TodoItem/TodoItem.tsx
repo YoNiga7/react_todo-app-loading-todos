@@ -24,7 +24,6 @@ export const TodoItem: React.FC<Props> = ({ title, id, completed }) => {
           className="todo__status"
           checked={completed}
         />
-        h
       </label>
 
       <span data-cy="TodoTitle" className="todo__title">
